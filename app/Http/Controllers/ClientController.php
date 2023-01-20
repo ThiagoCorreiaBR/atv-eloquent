@@ -22,7 +22,7 @@ class ClientController extends Controller
     }
 
     public function blade(){
-        $name = 'João';
+        $name = 'Taylor';
         return view('hello',compact('name'));
     }
 }
